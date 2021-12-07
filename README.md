@@ -239,3 +239,9 @@ Follow below the Itinerary map and route between the four cities mentioned above
 Follow below the map, with information on the markers, such as city name, the country code, the weather description and maximum temperature for the city
 
 ![](https://github.com/DougUOT/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.PNG)
+
+## Limitations
+
+Related to section 3.2 Create a Travel Itinerary Map, due to the zoom and scale of the map used in this project (file: [WeatherPy_travel_map.PNG](https://github.com/DougUOT/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.PNG)), the letter E overlaps with the letter A.  Applying the zoom on the map will make it possible to confirm that both letters are at the same point; this is because the starting point and the endpoint on the route refer to the same city, Rio de Janeiro.
+
+
