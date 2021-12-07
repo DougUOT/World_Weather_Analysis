@@ -23,19 +23,19 @@ Follow below the goals for this module:
 
 ## Basic Project Plan
 
-Here is a blueprint of the basic project plan:
+Here is a blueprint of the primary project plan:
 
 * Task: Collect and analyze weather data across cities worldwide.
 * Purpose: PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
-* Method: Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. This process will entail collecting, analyzing, and visualizing the data.
+* Method: Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real-time. This process will entail collecting, analyzing, and visualizing the data.
 
-The data analysis will be parsed into three principle parts, or stages:
+The data analysis will be parsed into three principal parts or stages:
 
 1.1. Collect the Data
 
 * Use the NumPy module to generate more than 1,500 random latitudes and longitudes.
 * Use the citipy module to list the nearest city to the latitudes and longitudes.
-* Use the OpenWeatherMap API to request the current weather data from each unique city in your list.
+* Use the OpenWeatherMap API to request the current weather data from each unique city in the list.
 * Parse the JSON data from the API request.
 * Collect the following data from the JSON file and add it to a DataFrame:
   * City, country, and date
@@ -67,11 +67,11 @@ The data analysis will be parsed into three principle parts, or stages:
 
 3.1 Visualize Travel Data
 
-Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences. Complete these steps:
+Create a heatmap with pop-up markers to display information on specific cities based on a customer's travel preferences. Complete these steps:
 
   * Filter the Pandas DataFrame based on user inputs for a minimum and maximum temperature.
   * Create a heatmap for the new DataFrame.
-  * Find a hotel from the cities' coordinates using Google's Maps and Places API, and Search Nearby feature.
+  * Find a hotel from the cities' coordinates using Google's Maps and Places API, and the Search Nearby feature.
   * Store the name of the first hotel in the DataFrame.
   * Add pop-up markers to the heatmap that display information about the city, current maximum temperature, and a hotel in the city.
 
@@ -112,7 +112,7 @@ Creating a Panda DataFrame with weather parameters by city and latitudes
 
 #### 2.1 Exploratory Analysis with Visualization
 
-##### * Create scatter plots of the weather data for the following comparisons:
+##### * Create the scatter plots of the weather data for the following comparisons:
   * Latitude versus temperature
 
 ![](https://github.com/DougUOT/World_Weather_Analysis/blob/main/Resources/Images/Module6_2fig1.PNG)
@@ -197,14 +197,14 @@ Southern Hemisphere for Wind Speed
 
 #### 3.1 Visualize Travel Data
 
-Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences. Complete these steps:
+Create a heatmap with pop-up markers to display information on specific cities based on a customer's travel preferences. Complete these steps:
 
   * Filter the Pandas DataFrame based on user inputs for a minimum and maximum temperature.
   * Create a heatmap for the new DataFrame.
 
 ![](https://github.com/DougUOT/World_Weather_Analysis/blob/main/Resources/Images/Code_Pandas_Dataframe_min_max_temp.PNG)
 
-  * Find a hotel from the cities' coordinates using Google's Maps and Places API, and Search Nearby feature.
+  * Find a hotel from the cities' coordinates using Google's Maps and Places API, and the Search Nearby feature.
 
 ![](https://github.com/DougUOT/World_Weather_Analysis/blob/main/Resources/Images/Code_Dataframe_Findhotel.PNG)
 
@@ -218,7 +218,7 @@ Heatmap of temperatures for the vacations spots
 
 ![](https://github.com/DougUOT/World_Weather_Analysis/blob/main/Resources/Images/2Heatmap_temperature_vacation_spots.png)
 
-Heatmap of temperatures for the vacations spots with pop-up markers for each city, with hotel name, City, country and Max temp.
+Heatmap of temperatures for the vacations spots with pop-up markers for each city, with hotel name, city, country and Max temp.
 
 ![](https://github.com/DougUOT/World_Weather_Analysis/blob/main/Resources/Images/2Heatmap_temperature_vacation_spots%20and%20markers.png)
 
