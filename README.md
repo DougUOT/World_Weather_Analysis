@@ -6,9 +6,8 @@ Using Jupyter Notebook, Pandas Library, CityPy, Python, APIs and JSON Traversals
 Mytrip is a top travel technology company specializing in internet-related services in the hotel and lodging industry.
 We will gather and present information for clients through the pursuit page; the customer will filter based on their preferred travel criteria to find their hotel anyplace on the planet. We will utilize a Jupiter notebook and the CityPI module to play out this undertaking to get random cities and latitudes. We will use the Matplotlib to create a series of scatter plots to show the relationship between the latitude and various weather parameters for over 500 cities. This data will help the company to predict the best time of year for customers to plan their vacation
 
-This assignment is related to the Bootcamp Data Analytics from the University of Toronto and comprises the goals below for this module: 
 
-Follow below the goals for this module:
+Follow below the goals for this project:
 
 1) Objective 1: Retrieve Weather Data
 2) Objective 2: Deliverable 2: Create a Customer Travel Destinations Map
